@@ -17,6 +17,7 @@
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
     --heading-font: "Poppins", sans-serif;
+    --heading-font-slogan: "Poppins", sans-serif;
     --nav-font: "Raleway", sans-serif;
 }
 
@@ -25,6 +26,7 @@
     --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
     --default-color-text: #b7b2b2; /* Default color used for the majority of the text content across the entire website */
+    --default-color-text-slogan: #FFF; /* Default color used for the majority of the text content across the entire website */
     --heading-color: #2c4964; /* Color for headings, subheadings and title throughout the website */
     --heading-color-logo: #fff; /* Color for headings, subheadings and title throughout the website */
     --accent-color: #1977cc; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -957,7 +959,9 @@ section,
 }
 
 .hero .container  p{
-    color: var(--default-color-text);
+    color: var(--default-color-text-slogan);
+    font-family: var(--heading-font-slogan);
+    font-weight: 700; 
 }
 
 .hero .welcome h2 {
